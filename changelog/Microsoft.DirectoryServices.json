@@ -421,7 +421,7 @@
           "ApiChange": "Method",
           "ChangedApiName": "activateServicePlan",
           "ChangeType": "Deprecation",
-          "Description": "Deprecated the [activateServicePlan](https://docs.microsoft.com/en-us/graph/api/user-activateServicePlan?view=graph-rest-beta) method from the [user](https://docs.microsoft.com/en-us/graph/api/resources/user?view=graph-rest-beta) resource. This method will stop returning data after October 15th, 2022.",
+          "Description": "Deprecated the [activateServicePlan](https://docs.microsoft.com/en-us/graph/api/user-activateServicePlan?view=graph-rest-beta) method from the [user](https://docs.microsoft.com/en-us/graph/api/resources/user?view=graph-rest-beta) resource. This method will stop returning data after October 15th, 2022. Contact [Microsoft Support](https://developer.microsoft.com/en-us/graph/support) to get assistance in activating a service plan for your organization.",
           "Target": "user"
         },
         {
