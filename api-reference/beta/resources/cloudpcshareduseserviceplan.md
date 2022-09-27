@@ -1,6 +1,6 @@
 ---
-title: "CloudPcSharedUseServicePlan resource type"
-description: "Represents a Cloud PC shared use servicePlan."
+title: "cloudPcSharedUseServicePlan resource type"
+description: "Represents a Cloud PC Shared Use ServicePlan."
 author: "AshleyYangSZ"
 ms.localizationpriority: medium
 ms.prod: "cloud-pc"
@@ -13,30 +13,26 @@ Namespace: microsoft.graph
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Represents a Cloud PC shared use servicePlan.
+Represents a Cloud PC Shared Use ServicePlan.
 
 ## Methods
-
-| Method                                                                                  | Return type                                                                       | Description                                                                                                               |
-| :-------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------ |
-| [List provisioningPolicies](../api/virtualendpoint-list-provisioningpolicies.md)        | [cloudPcProvisioningPolicy](../resources/cloudpcprovisioningpolicy.md) collection | List properties and relationships of the [cloudPcProvisioningPolicy](../resources/cloudpcprovisioningpolicy.md) objects.  |
-| [Get cloudPcProvisioningPolicy](../api/cloudpcprovisioningpolicy-get.md)                | [cloudPcProvisioningPolicy](../resources/cloudpcprovisioningpolicy.md)            | Read the properties and relationships of a [cloudPcProvisioningPolicy](../resources/cloudpcprovisioningpolicy.md) object. |
-| [Create cloudPcProvisioningPolicy](../api/virtualendpoint-post-provisioningpolicies.md) | [cloudPcProvisioningPolicy](../resources/cloudpcprovisioningpolicy.md)            | Create a new [cloudPcProvisioningPolicy](../resources/cloudpcprovisioningpolicy.md) object.                               |
-| [Update cloudPcProvisioningPolicy](../api/cloudpcprovisioningpolicy-update.md)          | [cloudPcProvisioningPolicy](../resources/cloudpcprovisioningpolicy.md)            | Update the properties of a [cloudPcProvisioningPolicy](../resources/cloudpcprovisioningpolicy.md) object.                 |
-| [Delete cloudPcProvisioningPolicy](../api/cloudpcprovisioningpolicy-delete.md)          | None                                                                              | Delete a [cloudPcProvisioningPolicy](../resources/cloudpcprovisioningpolicy.md) object.                                   |
-| [Assign cloudPcProvisioningPolicy](../api/cloudpcprovisioningpolicy-assign.md)          | None                                                                              | Assign a [cloudPcProvisioningPolicy](../resources/cloudpcprovisioningpolicy.md) to user groups.                           |
+|Method|Return type|Description|
+|:---|:---|:---|
+|[List cloudPcSharedUseServicePlans](../api/virtualendpoint-list-shareduseserviceplans.md)|[cloudPcSharedUseServicePlan](../resources/cloudpcshareduseserviceplan.md) collection|Get a list of the [cloudPcSharedUseServicePlan](../resources/cloudpcshareduseserviceplan.md) objects and their properties.|
+|[Get cloudPcSharedUseServicePlan](../api/cloudpcshareduseserviceplan-get.md)|[cloudPcSharedUseServicePlan](../resources/cloudpcshareduseserviceplan.md)|Read the properties and relationships of a [cloudPcSharedUseServicePlan](../resources/cloudpcshareduseserviceplan.md) object.|
 
 ## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|displayName|String|The display name of shared-use service plan.|
+|id|String|The unique ID of shared-use service plan.|
+|totalCount|Int32|Total number of shared-use service plans purchased by customer.|
+|usedCount|Int32|Indicates the number of service plans that are in use for the account.|
 
-| Property      | Type         | Description                                                            | Key | Required | ReadOnly |
-| ------------- | ------------ | ---------------------------------------------------------------------- | --- | -------- | -------- |
-| `id`          | `Edm.String` | The unique ID of shared-use service plan.                              | Yes | Yes      | Yes      |
-| `displayName` | `Edm.String` | The display name of shared-use service plan.                           | No  | Yes      | Yes      |
-| `usedCount`   | `Edm.Int32`  | Indicates the number of service plans that are in use for the account. | No  | Yes      | Yes      |
-| `totalCount`  | `Edm.Int32`  | Total number of shared-use service plans purchased by customer.        | No  | Yes      | Yes      |
+## Relationships
+None.
 
 ## JSON representation
-
 The following is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",
@@ -46,13 +42,12 @@ The following is a JSON representation of the resource.
   "openType": false
 }
 -->
-
 ``` json
 {
   "@odata.type": "#microsoft.graph.cloudPcSharedUseServicePlan",
   "id": "String (identifier)",
   "displayName": "String",
-  "usedCount": "Int32",
-  "totalCount": "Int32"
+  "usedCount": "Integer",
+  "totalCount": "Integer"
 }
 ```

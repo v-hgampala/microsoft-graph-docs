@@ -44,8 +44,16 @@ Represents a Cloud PC provisioning policy.
 |managedBy|[cloudPcManagementService](../resources/cloudpconpremisesconnection.md#cloudpcmanagementservice-values)|Specifies which services manage the Azure network connection. Possible values are: `windows365`, `devBox`, `unknownFutureValue`. Read-only.|
 |microsoftManagedDesktop|[microsoftManagedDesktop](../resources/microsoftManagedDesktop.md)|The specific settings for the Microsoft Managed Desktop, which enables customers to get a managed device experience for the Cloud PC. Before you can enable Microsoft Managed Desktop, an admin must configure it.|
 |onPremisesConnectionId|String|The ID of the cloudPcOnPremisesConnection. To ensure that Cloud PCs have network connectivity and that they domain join, choose a connection with a virtual network that’s validated by the Cloud PC service.|
-|provisioningType|cloudPcProvisioningType|Specifies the type of licenses to be used when provisioning Cloud PCs using this policy. Possible values are dedicated and shared. It will be dedicated by default if it's not specified when creating provisioningPolicy. The possible values are: `dedicated`, `shared`, `unknownFutureValue`.|
+|provisioningType|[cloudPcProvisioningType](#CloudPcProvisioningType-values)|Specifies the type of licenses to be used when provisioning Cloud PCs using this policy. Possible values are dedicated and shared. It will be dedicated by default if it's not specified when creating provisioningPolicy. The possible values are: `dedicated`, `shared`, `unknownFutureValue`.|
 |windowsSettings|[cloudPcWindowsSettings](../resources/cloudpcwindowssettings.md)|Specific Windows settings to configure while creating Cloud PCs for this provisioning policy.|
+
+### CloudPcProvisioningType values
+
+|Membername|Description|Value|
+|:---|:---|:---|
+|`dedicated`|0|Defaultvalue.Indicatesthepolicyshouldusethededicated,peruserlicensesfortheprovisioningpolicywhenprovisioningCloudPCsforusers.|
+|`shared`|1|IndicatesusingtheShareduselicensesfortheprovisioningpolicywhenprovisioningCloudPCsforusers.|
+|`unknownFutureValue`|2|Evolvableenumerationsentinelvalue.Donotuse.|
 
 ## Relationships
 
