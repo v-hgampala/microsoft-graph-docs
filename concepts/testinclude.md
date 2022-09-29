@@ -6,6 +6,4 @@ ms.localizationpriority: high
 ms.custom: graphiamtop20
 ---
 
-# Microsoft Graph service-specific throttling limits
-
 [!INCLUDE [throttling-cpim](throttling-limits.md)]
