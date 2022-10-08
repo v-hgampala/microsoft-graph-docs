@@ -172,6 +172,8 @@ Any combinations involving **message**, **event**, SharePoint and OneDrive types
 
 - The search API does not support aggregations for **message**, **event**, **site** or **drive**.
 
+- The search API does not support xrank for **message**,**chatMessage**, **event**, **person**, or **externalItem**.
+
 - Customizations in SharePoint search, such as a custom search schema or result sources, can interfere with the operation of the Microsoft Search API.
 
 ## See also
@@ -184,6 +186,7 @@ Any combinations involving **message**, **event**, SharePoint and OneDrive types
   - [Refine search results](/graph/search-concept-aggregation)
   - [Request spelling correction](/graph/search-concept-speller)
   - [Use search display layout](/graph/search-concept-display-layout)
+  - [XRANK search results](/graph/search-concept-xrank)
 
 - Explore the search APIs in  [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
 - Find out about the [latest new features and updates](/graph/whats-new-overview) for this API set.
