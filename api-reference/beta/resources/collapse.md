@@ -1,5 +1,5 @@
 ---
-title: "collapseProperty resource type"
+title: "collapse resource type"
 description: "Indicates the specification to collapse search results"
 ms.localizationpriority: medium
 author: "cxiang"
@@ -7,17 +7,19 @@ ms.prod: "search"
 doc_type: "resourcePageType"
 ---
 
-# collapseProperty resource type
+# collapse resource type
 
 Namespace: microsoft.graph
 
-Indicates the order to sort search results.
+[!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
+
+Indicates the specification to collapse search results.
 
 ## Properties
 
 | Property     | Type        | Description |
 |:-------------|:------------|:------------|
-|collapse|[collapseSpec](collapseSpec.md) collection|Specifies the a set of criteria to collapse results. Optional.|
+|collapse|[collapseOption](collapseOption.md) collection|Specifies the a set of criteria to collapse results. Optional.|
 
 ## JSON representation
 
@@ -28,13 +30,13 @@ The following is a JSON representation of the resource.
   "optionalProperties": [
 
   ],
-  "@odata.type": "microsoft.graph.collapseProperty",
+  "@odata.type": "microsoft.graph.collapse",
   "baseType": null
 }-->
 
 ```json
 {
-  "collapse": [{"@odata.type": "microsoft.graph.collapseSpec"}]
+  "collapse": [{"@odata.type": "microsoft.graph.collapseOption"}]
 }
 ```
 
@@ -42,7 +44,7 @@ The following is a JSON representation of the resource.
 2019-02-04 14:57:30 UTC -->
 <!-- {
   "type": "#page.annotation",
-  "description": "collapseProperty resource",
+  "description": "collapse resource",
   "keywords": "",
   "section": "documentation",
   "tocPath": ""
