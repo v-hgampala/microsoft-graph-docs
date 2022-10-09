@@ -10397,6 +10397,13 @@ items:
           items:
           - name: List
             href: api/virtualendpoint-list-serviceplans.md
+        - name: Cloud PC shared use service plan
+          href: resources/cloudpcshareduseserviceplan.md
+          items:
+          - name: List
+            href: api/virtualendpoint-list-cloudpcshareduseserviceplan.md
+          - name: Get
+            href: api/cloudpcshareduseserviceplan-get.md
         - name: Cloud PC snapshot
           href: resources/cloudpcsnapshot.md
           items:

@@ -1,7 +1,7 @@
 ---
 title: "Get cloudPcSharedUseServicePlan"
 description: "Read the properties and relationships of a cloudPcSharedUseServicePlan object."
-author: "AshleyYangSZ"
+author: "GuoanTang"
 ms.localizationpriority: medium
 ms.prod: "cloud-pc"
 doc_type: apiPageType
@@ -79,9 +79,9 @@ Content-Type: application/json
   "value": {
     "@odata.type": "#microsoft.graph.cloudPcSharedUseServicePlan",
     "id": "613a8d85-6c33-1268-9f55-b96a6540017c",
-    "displayName": "String",
-    "usedCount": "Integer",
-    "totalCount": "Integer"
+    "displayName": "Display Name Value",
+    "usedCount": "10",
+    "totalCount": "20"
   }
 }
 ```
