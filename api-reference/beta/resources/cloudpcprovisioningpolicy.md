@@ -90,7 +90,7 @@ The following is a JSON representation of the resource.
   "imageType": "String",
   "localAdminEnabled": "Boolean",
   "managedBy": "String",
-  "provisioningType": "String"
+  "provisioningType": "String",
   "microsoftManagedDesktop": {
     "type": "String",
     "profile": "String"
