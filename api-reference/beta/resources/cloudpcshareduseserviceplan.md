@@ -1,6 +1,6 @@
 ---
 title: "cloudPcSharedUseServicePlan resource type"
-description: "Represents a Cloud PC Shared Use ServicePlan."
+description: "Represents a Cloud PC shared use service plan."
 author: "AshleyYangSZ"
 ms.localizationpriority: medium
 ms.prod: "cloud-pc"
