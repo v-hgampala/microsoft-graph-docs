@@ -13,7 +13,7 @@ Namespace: microsoft.graph
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Represents a Cloud PC provisioning policy
+Represents a Cloud PC provisioning policy.
 
 ## Methods
 
