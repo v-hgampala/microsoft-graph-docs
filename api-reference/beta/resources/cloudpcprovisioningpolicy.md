@@ -47,7 +47,7 @@ Represents a Cloud PC provisioning policy.
 |provisioningType|[cloudPcProvisioningType](#cloudpcprovisioningtype-values)|Specifies the type of licenses to be used when provisioning Cloud PCs using this policy. Possible values are dedicated and shared. It will be dedicated by default if it's not specified when creating provisioningPolicy. The possible values are: `dedicated`, `shared`, `unknownFutureValue`.|
 |windowsSettings|[cloudPcWindowsSettings](../resources/cloudpcwindowssettings.md)|Specific Windows settings to configure while creating Cloud PCs for this provisioning policy.|
 
-### CloudPcProvisioningType values
+### cloudPcProvisioningType values
 
 |Membername|Description|Value|
 |:---|:---|:---|
