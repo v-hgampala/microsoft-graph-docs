@@ -49,7 +49,7 @@ Represents a Cloud PC provisioning policy.
 
 ### cloudPcProvisioningType values
 
-|Membername|Description|Value|
+|Membername|Value|Description|
 |:---|:---|:---|
 |`dedicated`|0|Defaultvalue.Indicatesthepolicyshouldusethededicated,peruserlicensesfortheprovisioningpolicywhenprovisioningCloudPCsforusers.|
 |`shared`|1|IndicatesusingtheShareduselicensesfortheprovisioningpolicywhenprovisioningCloudPCsforusers.|
