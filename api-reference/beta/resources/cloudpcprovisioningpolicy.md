@@ -51,9 +51,9 @@ Represents a Cloud PC provisioning policy.
 
 |Membername|Description|Value|
 |:---|:---|:---|
-|`dedicated`|0|Defaultvalue.Indicatesthepolicyshouldusethededicated,peruserlicensesfortheprovisioningpolicywhenprovisioningCloudPCsforusers.|
-|`shared`|1|IndicatesusingtheShareduselicensesfortheprovisioningpolicywhenprovisioningCloudPCsforusers.|
-|`unknownFutureValue`|2|Evolvableenumerationsentinelvalue.Donotuse.|
+|`dedicated`|0|Default value. Indicates the policy should use the dedicated, per user licenses for the provisioning policy when provisioning Cloud PCs for users.|
+|`shared`|1|Indicates using the Shared use licenses for the provisioning policy when provisioning Cloud PCs forusers.|
+|`unknownFutureValue`|2|Evolvable enumeration sentinel value.Do not use.|
 
 ## Relationships
 
