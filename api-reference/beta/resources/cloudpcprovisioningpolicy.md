@@ -49,7 +49,7 @@ Represents a Cloud PC provisioning policy.
 
 ### cloudPcProvisioningType values
 
-|Membername|Description|Value|
+|Membername|Value|Description|
 |:---|:---|:---|
 |`dedicated`|0|Default value. Indicates the policy should use the dedicated, per user licenses for the provisioning policy when provisioning Cloud PCs for users.|
 |`shared`|1|Indicates using the Shared use licenses for the provisioning policy when provisioning Cloud PCs forusers.|

@@ -1,6 +1,6 @@
 ---
 title: "cloudPcSharedUseServicePlan resource type"
-description: "Represents a Cloud PC Shared Use ServicePlan."
+description: "Represents a Cloud PC shared use service plan."
 author: "AshleyYangSZ"
 ms.localizationpriority: medium
 ms.prod: "cloud-pc"
@@ -13,7 +13,7 @@ Namespace: microsoft.graph
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Represents a Cloud PC Shared Use ServicePlan.
+Represents a Cloud PC shared use service plan.
 
 ## Methods
 |Method|Return type|Description|
